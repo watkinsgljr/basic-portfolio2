@@ -48,7 +48,8 @@ section {
 /* border: 1px solid red;*/
  font-size: 100%;
  font: inherit;
- padding-bottom: 20px;
+ padding: 20px;
+ /* height: 50rem; */
 }
 
 .portsection {
@@ -282,6 +283,98 @@ button {
     display: inline-block;
     font-size: 14px;
 }
+
+@media only screen and (max-width: 640px) {
+    .container {
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    }
+
+    .logo {
+        height: 80px;
+        font-size: 4rem;
+        width: 153%;
+    }
+
+
+    .clearfix {
+        display: unset;
+    }
+
+    section {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .main2 {
+        width: 50rem;
+       
+        
+    }
+
+    .main {
+        padding: 20px;
+    }
+/************** Would create a div and set image to bckground to limit the distortion **************/
+    #photo-of-me {
+        width: 90%;
+    }
+
+    .portcontainer {
+        flex-direction: column;
+        align-items: stretch;
+        margin: auto;
+        max-width: 95%;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .image_holder {
+        width: 90%;
+        height: 200px;
+    }
+
+    .imgContainer {
+        width: 100%;
+    }
+    
+    .contact-section {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        width: 90%;
+        padding:20px;
+    }
+
+    .portsection {
+        width: 95%;
+    }
+
+    .portcontainer {
+        max-width: 90%;
+       
+        height: 50%;
+    }
+
+    .contact-section {
+        width: 90%;
+    }
+}
+    
+
+
+    /* margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
 
 
 
